@@ -25,7 +25,7 @@ public record HangarVersion(String createdAt, String name, String visibility, St
                             Stats stats, String author, String reviewState, Channel channel, String pinnedStatus,
                             Map<String, DownloadData> downloads, Map<Platform, List<PluginDependency>> pluginDependencies,
                             Map<Platform, List<String>> platformDependencies,
-                            Map<Platform, String> platformDependenciesFormatted) {
+                            Map<Platform, List<String>> platformDependenciesFormatted) {
 
 
 }
